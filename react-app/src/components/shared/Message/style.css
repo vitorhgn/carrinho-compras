@@ -1,0 +1,16 @@
+.message-sucess{
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+.container-massage-sucess{
+    background-color: rgb(137, 230, 83);
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: gray;
+    border-radius: 50px;
+}

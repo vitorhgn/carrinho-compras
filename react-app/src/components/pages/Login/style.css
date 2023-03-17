@@ -1,0 +1,85 @@
+.main-content-login{
+    background-color: #ccc;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.form-content-box{
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 40px;
+}
+.form-login{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    color:gray;
+}
+.label-login{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.label-login > input{
+    border: none;
+    border-radius: 5px;
+    height: 22px;
+}
+.Login-Auth{
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+}
+.Login-Auth{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Login-Auth > div{
+    cursor: pointer;
+    background-color: #fff;
+    color:gray;
+    padding: 5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+.Login-Auth > div:hover{
+    border: 1px solid gray;
+    transition: 0.3s;
+    filter: brightness(80%);
+}
+.button-form-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.button-form-login > button{
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    width: 50%;
+    color: gray;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #fff;
+}
+.button-form-login > button:hover{
+    border: 1px solid gray;
+    transition: 0.3s;
+    filter: brightness(80%);
+    font-weight: 600;
+}

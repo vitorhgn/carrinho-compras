@@ -1,0 +1,24 @@
+.nav-shared{
+    width: 100%;
+    background-color: #e6e6e6;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    color: gray;
+}
+.nav-shared ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.nav-shared div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav-shared a {
+    text-decoration: none;
+    color: gray;
+}
